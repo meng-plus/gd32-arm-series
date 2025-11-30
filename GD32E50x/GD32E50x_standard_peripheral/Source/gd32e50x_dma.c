@@ -35,7 +35,7 @@ OF SUCH DAMAGE.
 #include "gd32e50x_dma.h"
 #include <stdlib.h>
 
-#define DMA_WRONG_HANDLE        while(1)
+#define DMA_WRONG_HANDLE        while(1) \
 {}
 
 /* check whether peripheral matches channels or not */
